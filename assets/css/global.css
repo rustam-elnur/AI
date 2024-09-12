@@ -12,11 +12,12 @@
 
 }
 
-*{text-decoration: none;}
+*{text-decoration: none !important; }
 
 header nav a {
     margin-right: 30px;
 }
+/* comment ucun ctrl+/ */
 
 header{
     background: linear-gradient(to bottom, var(--Header-yuxari-reng),var(--header-asagi-reng));
@@ -89,12 +90,14 @@ a{
 
 .hero .hero-right img{
     width: 300px;
+    margin-top: 49px;
 }
 
 
 .hero .hero-left h6{
     text-transform: uppercase;
     color: #3A68B8;
+    margin-top: 20px;
 }
 
 .hero .hero-left h2{
@@ -114,11 +117,16 @@ a{
     border: none;
     padding: 15px 30px;
     color: #fff;
+    border-radius: 5px;
 }
 
 .hero .buttonlar button img{
     width: 11px;
     margin-right: 10px;
+}
+
+.hero-left{
+    padding: 50px;
 }
 
 
@@ -160,7 +168,46 @@ a{
 @media(min-width:992px){
     .hero .hero-right img{
         width: 500px;
-    };
+    }
 }
+
+
+.companies {
+    background: linear-gradient(to bottom,var(--hero-yuxari-reng), var(--hero-asagi-reng));
+    
+}
+
+.companies img{
+    height: 60px;
+    margin: 10px 0;
+}
+
+/* AI Deep Learnin Start */
+
+.ai .ai-right-side {
+   h1{
+    color: #fff;
+   } 
+   article{
+    color: #fff;
+    
+   }
+}
+
+.ai .ai-right-side button {
+    background-color: var(--header-btn-color);
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.ai .ai-right-side article{
+    margin: 15px;
+}
+
+
+
 
 
